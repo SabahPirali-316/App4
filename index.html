@@ -20,7 +20,7 @@ triedel@utexas.edu
  
 Brief Description of Goal of Code: Be able to identify based on 4 symptoms, if the user has a stomach virus or food poisoning
  
-Known Issues: N/A <!-- Left the beginning of the previous app -->
+Known Issues: N/A <!-- Left the beginning of the previous app and used it as a template.  -->
 
 	
    <head> 
@@ -33,6 +33,17 @@ Known Issues: N/A <!-- Left the beginning of the previous app -->
 
 
 <script>
+
+// This alert shows the last time the file was modified.
+// It helps confirm that the most recent version of the file is being displayed
+// and that GitHub is not showing an older cached version.
+
+// The following code lets you know when the file was last modified.
+var docMod = document.lastModified;
+alert("This file last modified " + docMod);
+console.log("This file last modified " + docMod);
+
+	
 	// These variables store how many answers point toward stomach virus vs food poisoning
   var stomach_virus_count = 0;
   var food_poisoning_count = 0;
@@ -51,7 +62,7 @@ Known Issues: N/A <!-- Left the beginning of the previous app -->
 
 
   }
-// Moves to the next page without changing any scores
+	// Moves to the next page without changing any scores
   function noNext(nextPage){
     window.location.hash = nextPage;
   }
@@ -117,7 +128,7 @@ body {
     <p>The following code has been developed by students and/or researchers of the Freshman Research Initiative DIY Diagnostics Stream at The University of Texas at Austin. This code is shared for demonstration purposes and should not be considered a product. It is for entertainment purposes only.</p>
 
     <p>THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.</p>
-    <!-- important to know, deleted the rest of the comment here that I did not write -->
+    <!-- deleted the rest of the comment here that was not written by me -->
 
   </div>
 </div>
